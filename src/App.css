@@ -1,0 +1,25 @@
+
+@import url("https://fonts.googleapis.com/css?family=Varela|Lily-Script-One");
+
+body{
+    background-color: #fefefe;
+ 
+    font-family: 'Varela';;
+    color: red;
+}
+.lightmodeicon img{
+    width: 5%;
+    padding-top: 5px;
+    
+}
+.holder{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 650px;
+}
+
+.footer-image img{
+    width: 10%;
+}
