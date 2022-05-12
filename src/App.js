@@ -26,7 +26,6 @@ function App() {
           <Route path="/Top5" element={<Top5 />} />
           <Route path='/Church' element={<Church/>}/>
         </Routes>
-        <h2>header</h2>
         <Footer/>
       </div>
     </Router>
