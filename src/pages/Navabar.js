@@ -3,6 +3,8 @@ import "./CSS/Navabars.css";
 import Lightmode from "./images/light-mode.svg";
 import { Link } from "react-router-dom";
 import Menus from "./images/48.svg";
+import { useState } from "react";
+
 
 const Navbar = () => {
   // const humberger = document.getElementById("humberger");
@@ -12,7 +14,12 @@ const Navbar = () => {
   //   nav.classList.toggle("Show");
   // });
 
+
+const[value, setValue] = useState('')
+
   return (
+
+    
     <div className="nav-bar">
       <div className="logo">
         <div className="images">
@@ -41,13 +48,13 @@ const Navbar = () => {
           </li>
           <li>
             <select>
-              <option value="Monastery">
+              <option value="/Monastery">
                 <Link to="/Monastery" className="link">
                   Monastery
                 </Link>
               </option>
               <option value="Church">
-                <Link to="/Church" className="link">
+                <Link to="/About" className="link">
                   Church
                 </Link>
               </option>
@@ -63,6 +70,7 @@ const Navbar = () => {
               Gallery
             </Link>
           </li>
+         
           {/* <li>
             <Link to="#">
               <select>
