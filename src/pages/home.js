@@ -9,10 +9,19 @@ const Home = () => {
       <div className="Home-content">
           {/* for content one */}
           <div className="Home-content-one">
-              <h2>Travel</h2>
-              <p>To</p>
-              <img src={arrow}  alt="arrow pic" /> 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quibusdam consectetur officiis dolore molestiae commodi.</p>
+              <div className="home-travel-content">
+                <div className="home-travel-title">
+                    <h2 >Travel</h2>
+                    <p>To</p>
+                    <p>Ethiopia</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quibusdam consectetur officiis dolore molestiae commodi.</p>
+              </div>
+              <div className="arrow">
+                <img src={arrow}  alt="arrow pic" /> 
+              </div>
+              
+              
           </div>
 
 
