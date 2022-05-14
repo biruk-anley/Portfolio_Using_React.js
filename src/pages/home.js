@@ -34,6 +34,9 @@ const Home = () => {
             
             <img className="church-img" src={church} alt="an image for the church" />
             <img className="cloud" src={cloud} alt="an image for the cloud" />
+            {/* <img className="cloud-2" src={cloud} alt="an image for the cloud" />
+            <img className="cloud-3" src={cloud} alt="an image for the cloud" /> */}
+            
               
           </div>
       </div>
