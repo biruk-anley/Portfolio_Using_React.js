@@ -2,10 +2,34 @@
 @import url("https://fonts.googleapis.com/css?family=Varela|Lily-Script-One");
 
 body{
-    background-color: #fefefe;
- 
+    background-color:white;
+    margin: 0;
+    padding: 0;
     font-family: 'Varela';;
     color: red;
+}
+.Home-content{
+    display: flex;
+}
+.Home-content-one{
+    display: flex;
+    
+}
+.home-travel-content{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid red;
+    color:rgb(24, 22, 22);
+    
+    flex-shrink: 0;
+    flex: 0.8;
+    
+}
+.home-travel-title{
+    text-align: center;
+}
+.home-travel-title{
+    font-size:27px;
 }
 .lightmodeicon img{
     width: 5%;
