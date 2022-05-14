@@ -11,24 +11,29 @@ const Home = () => {
           <div className="Home-content-one">
               <div className="home-travel-content">
                 <div className="home-travel-title">
-                    <h2 >Travel</h2>
+                    <div className="travel-do">
+                        <h2 >Travel</h2> 
+                        <div className="arrow">
+                          <img src={arrow}  alt="arrow pic" /> 
+                        </div>
+                    </div>
+                    
                     <p>To</p>
                     <p>Ethiopia</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quibusdam consectetur officiis dolore molestiae commodi.</p>
+                
               </div>
-              <div className="arrow">
-                <img src={arrow}  alt="arrow pic" /> 
-              </div>
+              
               
               
           </div>
 
 
           {/* for content Two*/}
-          <div className="Home-content-three">
-            <img src={cloud} alt="an image for the cloud" />
-            <img src={church} alt="an image for the church" />
+          <div className="Home-content-two">
+            
+            <img className="church-img" src={church} alt="an image for the church" />
+            <img className="cloud" src={cloud} alt="an image for the cloud" />
               
           </div>
       </div>
