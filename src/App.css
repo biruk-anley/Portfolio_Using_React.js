@@ -7,43 +7,77 @@ body{
     padding: 0;
     font-family: 'Varela';;
     color: red;
+    height: 100vh;
 }
-.Home-content{
-    display: flex;
+p{
+    padding: 30px;
 }
-.Home-content-one{
-    display: flex;
-    
-}
-.home-travel-content{
-    display: flex;
-    flex-direction: column;
-    border: 5px solid red;
-    color:rgb(24, 22, 22);
-    
-    flex-shrink: 0;
-    flex: 0.8;
-    
-}
-.home-travel-title{
-    text-align: center;
-}
-.home-travel-title{
-    font-size:27px;
-}
+
 .lightmodeicon img{
     width: 5%;
     padding-top: 5px;
     
 }
-.holder{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    max-width: 650px;
+/*for the text*/
+.home-travel-title{
+    font-size:3em;
+    
+    border: 10px solid green;
+    
 }
+.home-travel-title h2{
+    margin-top:0;
+}
+.church-img{
+    border: 4px solid blue;
+    width: 80%;
+}
+.Home-content{
+    border: 5px solid green;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    
+}
+.Home-content-one{
+    border: 5px solid yellow;
+    display:flex;
+    
+}
+.Home-content-two{
+    border: 10px solid red;
+    position: relative;
+    
+}
+.arrow img{
+    border: 10px solid ;
+   
+}
+.travel-do{
+    display:flex;
+    align-items:center;
+    
+    justify-content: start;
+}
+.cloud{
+    border: 10px solid black;
+    width: 50%;
+    position:absolute;
+    top: 80%;
+    left: 0;
+}
+
+
 
 .footer-image img{
     width: 10%;
+}
+
+@media (max-width:910px) {
+    .Home-content{
+        flex-direction:column;
+    }
+    .cloud{
+        top: 70%;
+    }
 }
