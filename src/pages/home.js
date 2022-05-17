@@ -17,12 +17,18 @@ const Home = () => {
                           <img src={arrow}  alt="arrow pic" /> 
                         </div>
                     </div>
+                    <div className="to-eth">
+                      <p>To</p>
+                      <p>Ethiopia</p>
+                    </div>
                     
-                    <p>To</p>
-                    <p>Ethiopia</p>
+                   
                 </div>
                 
+              
+                
               </div>
+              
               
               
               
