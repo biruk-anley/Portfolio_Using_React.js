@@ -1,0 +1,17 @@
+
+
+.Slider-holder {
+    color: #fff;
+    padding: 10px;
+    size: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    height: 15em;
+    background-image: url('../images/Bitmap.jpg' );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: contain;
+    background-origin: content-box;
+}
