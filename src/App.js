@@ -3,12 +3,11 @@ import './App.css';
 import Navbar from './pages/Navabar';
 import Home from './pages/Home'
 import About from './pages/About'
-import Eotc from "./pages/Eotc";
-import Gallery from "./pages/Gallery";
-import Monastery from "./pages/Monastery";
-import Top5 from "./pages/Top5";
-import Church from './pages/Church';
-import Footer from './pages/Footer';
+import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
+import Portfolio from './pages/Portfolio'
+import Myservices from './pages/Myservices';
+
 
 
 
@@ -20,11 +19,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
-          <Route path="/Eotc" element={<Eotc />} />
-          <Route path="/Gallery" element={<Gallery />} />
-          <Route path="/Monastery" element={<Monastery/>} />
-          <Route path="/Top5" element={<Top5 />} />
-          <Route path='/Church' element={<Church/>}/>
+          <Route path="/Resume" element={<Resume />} />
+          <Route path="/Myservices" element={<Myservices />} />
+          <Route path="/Portfolio" element={<Portfolio/>} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Myservices" element={<Myservices />} />
+
+         
         </Routes>
         {/* <Footer/> */}
       </div>

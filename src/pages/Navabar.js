@@ -1,22 +1,11 @@
 import LOGO from "./images/logo.png";
 import "./CSS/Navabars.css";
-import Lightmode from "./images/light-mode.svg";
+
 import { Link } from "react-router-dom";
-import Menus from "./images/48.svg";
-import { useState } from "react";
+
 
 
 const Navbar = () => {
-  // const humberger = document.getElementById("humberger");
-  // const nav = document.getElementById("nav-id");
-
-  // humberger.addEventListener("Click", () => {
-  //   nav.classList.toggle("Show");
-  // });
-
-
-const[value, setValue] = useState('')
-
   return (
 
     
@@ -37,56 +26,31 @@ const[value, setValue] = useState('')
           </li>
           <li>
             <Link to="/About" className="link">
-              About Us
+              About
             </Link>
           </li>
           <li>
             {" "}
-            <Link to="/Eotc" className="link">
-              EOTC
+            <Link to="/Resume" className="link">
+              Resume
             </Link>
           </li>
           <li>
-            <select>
-              <option value="/Monastery">
-                <Link to="/Monastery" className="link">
-                  Monastery
-                </Link>
-              </option>
-              <option value="Church">
-                <Link to="/About" className="link">
-                  Church
-                </Link>
-              </option>
-            </select>
-          </li>
-          <li>
-            <Link to="/Top5" className="link">
-              TOP5
+            <Link to="/Myservices" className="link">
+              My Services
             </Link>
           </li>
           <li>
-            <Link to="/Gallery" className="link">
-              Gallery
+            <Link to="/Portfolio" className="link">
+              portfolio
             </Link>
           </li>
-         
-          {/* <li>
-            <Link to="#">
-              <select>
-                <option value="Language">Language</option>
-                <option value="English">English</option>
-                <option value="Amharic">አማረኛ</option>
-              </select>
+          <li>
+            <Link to="/Contact" className="link">
+              contact Me
             </Link>
-          </li> */}
-          <li className="lightmodeicon">
-            <img src={Lightmode} alt="" />
           </li>
-        </ul>
-        <li className="menus" id="humberger">
-          <img src={Menus} alt="" />
-        </li>
+         </ul>
       </div>
     </div>
   );
