@@ -1,4 +1,4 @@
-import LOGO from "./images/logo.png";
+
 import "./CSS/Navabars.css";
 
 import { Link } from "react-router-dom";
@@ -7,16 +7,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-
-    
     <div className="nav-bar">
-      <div className="logo">
-        <div className="images">
-          <img src={LOGO} alt="logo" />
-          <h2>KiBur Travel</h2>
-        </div>
-      </div>
-
       <div className="nav-bar--list">
         <ul id="nav-id" className="nav">
           <li>
@@ -50,7 +41,7 @@ const Navbar = () => {
               contact Me
             </Link>
           </li>
-         </ul>
+        </ul>
       </div>
     </div>
   );
