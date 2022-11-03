@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/me.PNG";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Typet from './Type';
 
 function Home() {
   return (
@@ -19,7 +20,7 @@ function Home() {
 
               <h6>
                 <Type />
-              </h6>
+              </h6>   
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
